@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+body{
+    background: #000;
+}
+
+.container{
+    width: 75%;
+    margin: 30px auto;
+    /* background: #fff; */
+    background: wheat;
+    height: 89vh;
+    border-radius: 20px;
+}
+
+.container-2{
+    width: 90%;
+    margin: 0 auto;
+    height: 80vh;
+    
+}
+
+.container-3 {
+    width: 92%;
+    margin: 0 auto;
+    height: 75vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.circle {
+    background: #000;
+    width: 25px;
+    height: 50px;
+    border-radius: 0px 50px 50px 0px;
+}
+.header .link{
+    display: flex;
+}
+
+.btn {
+    background: rgb(201, 142, 34);
+    padding: 10px 20px;
+    border-bottom: 0 !important;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    outline: none;
+
+}
+
+.btn:hover{
+    background: rgb(206, 171, 106);
+}
+
+h4,span{
+    margin-right: 5px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.form {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2;
+    align-items: center;
+}
+
+input,select {
+    border: none;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    background: transparent;
+    margin: 0 20px;
+    border-bottom: 1px solid #000;
+}
+
+
+.email {
+    width: 230px !important;
+}
+
+input::placeholder{
+    padding-left: 30px;
+    opacity: 0.5;
+    font-size: 17px;
+}
+
+select {
+    /* appearance: none; */
+    outline: 0;
+    background: transparent;
+}
+
+.declaration {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"]{
+    margin:0;
+    margin-right: 15px;
+    width: 20px;
+}
+
+
+.enquiry{
+    margin-top: 20px;
+}
+
+.enquiry-btn {
+    border: none;
+    background: #000;
+    color: #FFF;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enquiry-btn:hover{
+    background: rgb(46, 45, 45);
+}
+
+
+.enquiry-btn span {
+    margin-left: 15px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer img {
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    color: rgb(112, 112, 112);
+}
+
+.footer h6 {
+    color: rgb(112, 112, 112);
+    margin-bottom: 10px;
+}
+
+.footer h6{
+    margin-top: 10px;
+}
